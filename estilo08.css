@@ -1,0 +1,27 @@
+body,html{
+	margin: 0;
+}
+ul.menu{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+ul.menu li{
+	box-sizing: border-box;
+	background-color: olive;
+	width: 25%;
+	float: left;
+}
+ul.menu li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+ul.menu li a: hover{
+	background: #000;
+}
+.clearfix {
+    clear: left;
+}
+

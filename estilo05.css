@@ -1,0 +1,28 @@
+.div{
+	width:50%;
+	height: 100px;
+	float: left;
+	box-sizing: border-box;
+}
+.static{
+	position: absolute;
+	width: 40%;
+	float: left;
+	z-index: 0;
+
+}
+.relative{
+	position: relative;
+	width: 40%;
+	padding-top: 60px;
+	padding-left: 40px;
+	float: left;
+	z-index: 10;
+	
+	
+
+}
+.lente{
+	width: 80%;
+
+}
